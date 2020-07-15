@@ -1,26 +1,6 @@
   
 {
-  "posts": [
-let cube = {
-  hitsOne: randomDate(1594000000000, 1594827519648, 0, 23),
-  hitsTwo: Math.floor(Math.random() * 1000),
-  hitsThree: Math.floor(Math.random() * 1000),
-  hitsFour: Math.floor(Math.random() * 1000),
-  hitsFive: Math.floor(Math.random() * 1000),
-  hitsSix: Math.floor(Math.random() * 1000),
-  hitsSeven: Math.floor(Math.random() * 1000),
-  hitsEight: Math.floor(Math.random() * 1000),
-  hitsNine: Math.floor(Math.random() * 1000),
-  hitsTen: Math.floor(Math.random() * 1000),
-};
-console.log(cube);
-function randomDate(start, end, startHour, endHour) {
-  var date = new Date(start + Math.random() * (end - start));
-  var hour = (startHour + Math.random() * (endHour - startHour)) | 0;
-  date.setHours(hour);
-  return date;
-}
-  ],
+  "posts": [],
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 },
     { "id": 2, "body": "some comment", "postId": 1 }
